@@ -357,6 +357,9 @@ img{
 	top: 0;
 	left: 0;
 }
+.banner .con .left ul li i{
+	margin-left: 15px;
+}
 .banner .con .left>ul li{
 	width: 100%;
 	height: auto;
@@ -1439,7 +1442,8 @@ footer .con .zfb ul li .d{
 	display: block;
 }
 .yougud a:hover .fk{
-	opacity: 1;
+	/* opacity: 1; */
+	visibility: visible;
 	right: 30px;
 }
 .yougud a{
@@ -1453,7 +1457,8 @@ footer .con .zfb ul li .d{
 	right: 80px;
 	display: flex;
 	align-items: center;
-	opacity: 0;
+	/* opacity: 0; */
+	visibility: hidden;
 	transition: all .3s ease;
 	
 }
